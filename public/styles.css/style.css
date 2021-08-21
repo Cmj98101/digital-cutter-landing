@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #F1EDEE;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #DB5461;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+a,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    width: 100vw;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #058ED9;
+}
+
+header .logo {
+    width: 100%;
+    padding: 20px;
+    background-color: #058ED9;
+}
+
+
+
+
+header nav {
+    width: 100vw;
+
+    margin-bottom: 10px;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+header nav ul li {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #F1EDEE;
+}
+
+header nav ul li a {
+    color: black;
+    font-weight: bold;
+
+}
+
+header nav ul li a:hover {
+    color: #FFA630;
+}
+
+header h1 {
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+
+}
+
+header h1 span {
+    display: block;
+    text-align: center;
+}
+
+
+
+header .cutter-img {
+    width: 100%;
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    margin: 40px 0px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.applications-wrapper {
+    width: 100%;
+}
+
+main .industries-section {
+    width: 100%;
+    position: relative;
+    margin: 20px 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA630;
+
+}
+
+main .industries-section:hover {
+    top: -15px;
+}
+
+main .applications {
+    width: 100%;
+    height: 300px;
+}
+
+main .automotive {
+    background: linear-gradient(#058fd9b0,
+            #058fd9b0), url("../assets/automotive\ seats.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .apparel {
+
+    background: linear-gradient(#058fd9b0,
+            #058fd9b0), url("../assets/apparel.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .marine {
+
+    background: linear-gradient(#058fd9b0,
+            #058fd9b0), url("../assets/marine.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .aviation {
+    margin-bottom: 40px;
+    background: linear-gradient(#058fd9b0,
+            #058fd9b0), url("../assets/aviation\ seats.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+main .industries-section h3 {
+    z-index: 1;
+    position: absolute;
+    display: inline;
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.144); */
+}
+
+main h2 {
+    text-align: center;
+}
+
+
+main .section h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+main .section p {
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+main .section img~p {
+    padding: 0px 25px;
+    margin-bottom: 0px;
+}
+
+
+
+main .section img {
+    width: 20%;
+}
+
+main .benefit img {
+    width: 100%;
+}
+
+
+#success-message {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background-color: green;
+}
+
+#contact-us {
+    width: 100%;
+    margin: 40px 0px;
+    background-color: #058ED9;
+
+
+}
+
+
+#contact-us form {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+input,
+label,
+textarea {
+    margin: 0px 20px;
+    font-size: 1.2rem;
+
+
+}
+
+#contact-us label {
+    color: white;
+    font-size: 1.2rem;
+}
+
+input {
+    height: 55px;
+    padding: 10px;
+
+}
+
+textarea {
+    padding: 10px;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: lighter;
+}
+
+button {
+    width: 50%;
+    height: 55px;
+    margin: 20px 0px;
+    align-self: center;
+    background-color: #FFA630;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c7760c
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Tablet  */
+@media screen and (min-width: 768px) {
+
+
+    header .logo {
+        width: 50%;
+        padding: 20px;
+        background-color: #058ED9;
+    }
+
+
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    header nav ul li {
+        background-color: transparent;
+
+    }
+
+    .applications-wrapper {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    main .industries-section {
+        width: 45%;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    main .section {
+        width: 90%;
+        margin: 40px auto;
+        border-radius: 20px;
+    }
+
+
+
+    main .section img {
+        width: 20%;
+    }
+
+    main .section img~p {
+        padding: 0px 80px;
+    }
+
+    main .benefit img {
+        width: 100%;
+    }
+
+    #contact-us {
+        width: 90%;
+        margin: 40px 0px;
+        background-color: #058ED9;
+        border-radius: 20px 0px 150px 0px;
+
+    }
+
+    #success-message {
+        width: 35%;
+
+    }
+
+    #contact-us form {
+        width: 90%;
+
+    }
+}
+
+
+/* Laptop  */
+@media screen and (min-width: 1024px) {
+    header .logo {
+        width: 30%;
+    }
+
+    header .cutter-img-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    header .cutter-img {
+        width: 60%;
+    }
+
+    main .section {
+        width: 70%;
+
+    }
+
+    main .industries-section {
+        width: 20%;
+    }
+
+    main .section img {
+        width: 10%;
+    }
+
+    main .section img~p {
+        padding: 0px 40px;
+    }
+
+    main .benefit {
+        /* padding: 40px; */
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    main .benefit img {
+        width: 55%;
+        display: block;
+    }
+
+
+
+
+    #contact-us {
+        width: 70%;
+        margin: 40px 0px;
+        background-color: #058ED9;
+
+
+    }
+}

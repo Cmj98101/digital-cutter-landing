@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/styles.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Velocity | Digital Cutter</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../public/assets/VELOCITY LOGO Transparent (1).png" alt="">
+        <nav>
+            <ul>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>CUT PRO X1 <span>Single Ply Cutter</span></h1>
+        <div class="cutter-img-wrapper"><img class="cutter-img" src="../public/assets/CUTTER.jpg" alt=""></div>
+    </header>
+    <main>
+        <h2 id="applications">Applications</h2>
+        <div class="applications-wrapper">
+            <section class="industries-section applications automotive">
+                <h3>Automotive</h3>
+            </section>
+            <section class="industries-section applications marine">
+                <h3>Marine</h3>
+            </section>
+            <section class="industries-section applications apparel">
+                <h3>Apparel</h3>
+            </section>
+            <section class="industries-section applications aviation">
+                <h3>Aviation</h3>
+            </section>
+        </div>
+        <h2 id="benefits">Benefits</h2>
+        <section class="section benefit">
+            <img src="../public/assets/benefits.jpg" alt="">
+            <p>The CUT PRO X1 can be used in a wide variety of Industries. It is used to increase your production and
+                help you land the next big client. Its accuracy, speed and knife intelligence will lower your cost for
+                [] and higher your quality of each product. This machine was created for [].</p>
+        </section>
+        <h2 id="tools">TOOLS</h2>
+        <section class="section tools tool1">
+            <h3>Oscillating Knife</h3>
+            <img src="../public/assets/Oscillating Knife.png" alt="">
+            <p>Our CUT PRO X1 can carry an oscillating blade. Unlike a fixed blade this moves like a pendulum and
+                can cut softer materials, which would clog or deform a standard blade. This knife unit moves at a speed
+                of 2,000 cutting strokes a minute and has a maximum cutting depth of 50mm (2 inches).
+            </p>
+            <p>Combining this improved cutting with our software solutions, such as programs to use common cutting
+                lines, can reduce wastage and make processes more efficient.</p>
+        </section>
+        <section class="section tools tool2">
+            <h3>Router</h3>
+            <img src="../public/assets/router.png" alt="">
+            <p>The routing spindle is designed for continuous or extended production runs. For heavy-duty, high speed
+                drilling applications, the blade in this tool allows for very high processing speed and a clean,
+                efficient workflow. Cutting occurs in pressure mode. The pressure settings can be adjusted to precisely
+                match material properties and desired cut quality</p>
+        </section>
+        <section class="section tools tool3">
+            <h3>Drag Knives</h3>
+            <img src="../public/assets/Drag Knives.png" alt="">
+            <p>The use of a drag knife allows for maximum processing speeds, and compared to motor-driven tools, the UCT
+                is very inexpensive to purchase and maintain. A spring-loaded glide show permits cutting very fine
+                details. Optionally, a fixed glide shoe can be used for cutting at set depths.</p>
+        </section>
+        <h2 id="contact">Contact Us</h2>
+        <section id="contact-us">
+            <p id="success-message" style="display: none;">Email has been sent!</p>
+            <form action="send" method="POST">
+                <label for="name">Name*:</label> <input type="text" name="name" id="name" placeholder="John Doe"
+                    required>
+                <br>
+                <label for="email">Email:</label> <input type="email" name="email" id="email"
+                    placeholder="email@email.com" required><br>
+                <label for="contact-number">Contact Number:</label> <input type="tel" name="contactNumber"
+                    id="contact-number" placeholder="(111) 123-4567"> <br>
+                <label for="questions">Questions</label><textarea name="questions" id="questions" cols="30" rows="5"
+                    placeholder="Any Questions feel free to let us Know!" required></textarea>
+                <button type="submit" id="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../public/js/form.js"></script>
+</body>
+
+</html>
